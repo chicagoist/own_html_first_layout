@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    background: url(../img/hbg.jpg) top center no-repeat;
+    background: #000 url(../img/hbg.jpg) top center no-repeat;
     background-size: cover;
     color: #ffffff;
     padding: 0 0 245px 0;
@@ -261,5 +261,26 @@ body {
     }
     .service_element {
         flex-basis: 100%;
+    
     }
+    .header_menu ul {
+
+        flex-wrap: wrap;
+    }
+
+    .footer_menu ul {
+        flex-wrap: wrap;
+    }
+
+    .header_menu ul li {
+        margin: 10px 20px;
+    }
+
+    .footer_menu ul li {
+        margin: 10px 20px;
+    }
+
+
 }
+
+
